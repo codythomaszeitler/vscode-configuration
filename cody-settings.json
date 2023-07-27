@@ -1,0 +1,109 @@
+{
+  "redhat.telemetry.enabled": true,
+  "apexPMD.showStdOut": true,
+  "salesforcedx-vscode-apex.java.home": "C:\\\\Program Files (x86)\\\\Java\\\\jre1.8.0_321",
+  "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "xml.java.home": "C:\\\\Program Files (x86)\\\\Java\\\\jre1.8.0_291",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.exe": "default"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vsnotes.defaultNotePath": "c:\\home\\Cody\\vsnotes",
+  "editor.minimap.enabled": false,
+  "git.autofetch": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.prettierPath": "C:\\cygwin64\\home\\Cody\\dev\\salesforce-testing-area\\node_modules\\prettier",
+  "editor.renderWhitespace": "none",
+  "git.confirmSync": false,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Cygwin": {
+      "path": "C:\\cygwin64\\bin\\bash.exe",
+      "args": ["--login"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.cursorBlinking": "phase",
+  "editor.quickSuggestionsDelay": 0,
+  "workbench.list.smoothScrolling": true,
+  "search.searchOnType": false,
+  "workbench.sideBar.location": "right",
+  "xml.server.binary.trustedHashes": [
+    "10f0ec81d033f0b97cfed2e697b590cbb7cac969a95e353e2c78a19f5eb12634"
+  ],
+  "debug.onTaskErrors": "debugAnyway",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cmake.configureOnOpen": true,
+  "C_Cpp.autocompleteAddParentheses": true,
+  "C_Cpp.intelliSenseEngineFallback": "enabled",
+  "breadcrumbs.enabled": false,
+  "workbench.colorTheme": "Visual Studio Dark - C++",
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "editor.stickyScroll.enabled": true,
+  "explorer.confirmDelete": false,
+  "[ocaml]": {
+  
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "files.eol": "\n",
+  "ocaml.trace.server": "verbose",
+  "workbench.editor.enablePreview": false,
+  "ocaml.useOcamlEnv": false,
+  "[xml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cmake.additionalCompilerSearchDirs": [
+    "C:/msys64/mingw32/bin",
+    "C:/msys64/clang32/bin",
+    "C:/msys64/clang64/bin",
+    "C:/msys64/clangarm64/bin",
+    "C:/msys64/ucrt64/bin"
+  ],
+"jest.autoRun": {
+  "watch": false
+},
+"output.smartScroll.enabled": false
+}
