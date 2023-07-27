@@ -1,0 +1,515 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+cmd+f t",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "shift+cmd+down",
+        "command": "gotoNextPreviousMember.nextMember"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "-gotoNextPreviousMember.nextMember"
+    },
+    {
+        "key": "shift+cmd+up",
+        "command": "gotoNextPreviousMember.previousMember"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "-gotoNextPreviousMember.previousMember"
+    },
+    {
+        "key": "alt+cmd+up",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+up",
+        "command": "-editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+down",
+        "command": "-workbench.action.terminal.selectToNextCommand",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+cmd+down",
+        "command": "-cursorBottomSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+cmd+up",
+        "command": "-workbench.action.terminal.selectToPreviousCommand",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+cmd+up",
+        "command": "-cursorTopSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+cmd+up",
+        "command": "-list.collapseAll",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "shift+cmd+a c",
+        "command": "sfdx.force.apex.test.class.run"
+    },
+    {
+        "key": "shift+cmd+a m",
+        "command": "sfdx.force.apex.test.method.run"
+    },
+    {
+        "key": "shift+cmd+a r",
+        "command": "sfdx.force.apex.test.run"
+    },
+    {
+        "key": "ctrl+.",
+        "command": "editor.action.marker.next"
+    },
+    {
+        "key": "cmd+.",
+        "command": "-editor.action.marker.next",
+        "when": "editorFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+f8",
+        "command": "-editor.action.marker.next",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+cmd+s d",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+alt+cmd+f r",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "cmd+k cmd+right",
+        "command": "-workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+alt+cmd+f l",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "cmd+k cmd+left",
+        "command": "-workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "cmd+f cmd+n",
+        "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "ctrl+shift+space",
+        "command": "editor.debug.action.toggleBreakpoint",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "f9",
+        "command": "-editor.debug.action.toggleBreakpoint",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+cmd+b r",
+        "command": "workbench.debug.viewlet.action.removeAllBreakpoints"
+    },
+    {
+        "key": "f1",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "shift+f1 shift+f1",
+        "command": "sfdx.force.org.open"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "-editor.action.rename",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "f2",
+        "command": "-editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "editor.action.rename"
+    },
+    {
+        "key": "f2",
+        "command": "sfdx.force.source.push"
+    },
+    {
+        "key": "shift+f2",
+        "command": "sfdx.force.source.push.force"
+    },
+    {
+        "key": "ctrl+f2",
+        "command": "sfdx.force.source.deploy.source.path"
+    },
+    {
+        "key": "ctrl+shift+r ctrl+shift+r",
+        "command": "sfdx.force.apex.test.last.method.run"
+    },
+    {
+        "key": "ctrl+shift+r ctrl+shift+c",
+        "command": "sfdx.force.apex.test.last.class.run"
+    },
+    {
+        "key": "f12",
+        "command": "-editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "f12",
+        "command": "-editor.gotoNextSymbolFromResult",
+        "when": "hasSymbols && config.editor.gotoLocation.multiple == 'goto'"
+    },
+    {
+        "key": "f12",
+        "command": "workbench.view.extension.test"
+    },
+    {
+        "key": "alt+cmd+l",
+        "command": "-toggleFindInSelection",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+l",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus && !editorHasSelection"
+    },
+    {
+        "key": "shift+cmd+f",
+        "command": "-editor.action.formatDocument",
+        "when": "editorTextFocus && !editorHasSelection"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "-editor.action.toggleTabFocusMode"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "outline.focus"
+    },
+    {
+        "key": "cmd+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+p",
+        "command": "workbench.action.quickOpenNavigateNextInFilePicker"
+    },
+    {
+        "key": "cmd+p",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "f9",
+        "command": "-editor.debug.action.toggleBreakpoint",
+        "when": "debuggersAvailable && editorTextFocus"
+    },
+    {
+        "key": "f9",
+        "command": "sfdx.force.apex.log.get"
+    },
+    {
+        "key": "ctrl+shift+f9",
+        "command": "sfdx.force.start.apex.debug.logging"
+    },
+    {
+        "key": "shift+cmd+k shift+cmd+i",
+        "command": "git.commitAll"
+    },
+    {
+        "key": "shift+cmd+j shift+cmd+k",
+        "command": "workbench.action.switchWindow"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.switchWindow"
+    },
+    {
+        "key": "ctrl+alt+cmd+f o",
+        "command": "workbench.panel.output.focus"
+    },
+    {
+        "key": "ctrl+f9",
+        "command": "sfdx.launch.replay.debugger.logfile"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "-workbench.action.reopenClosedEditor"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+alt+cmd+t a",
+        "command": "sfdx.force.test.view.focus"
+    },
+    {
+        "key": "ctrl+alt+cmd+t j",
+        "command": "sfdx.force.lightning.lwc.test.view.focus"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "test-explorer.focus"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "alt+cmd+t",
+        "command": "-workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "shift+cmd+c shift+cmd+l",
+        "command": "sfdx.force.lightning.lwc.create"
+    },
+    {
+        "key": "shift+cmd+c shift+cmd+t",
+        "command": "sfdx.force.apex.trigger.create"
+    },
+    {
+        "key": "shift+cmd+c shift+cmd+a",
+        "command": "sfdx.force.apex.class.create"
+    },
+    {
+        "key": "shift+cmd+f shift+cmd+l",
+        "command": "editor.action.indentationToTabs"
+    },
+    {
+        "key": "ctrl+alt+cmd+g ctrl+alt+cmd+f",
+        "command": "git.pushToForce"
+    },
+    {
+        "key": "ctrl+alt+cmd+g ctrl+alt+cmd+k",
+        "command": "git.push"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "-cursorLineEndSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "workbench.action.closeEditorsAndGroup"
+    },
+    {
+        "key": "ctrl+alt+cmd+l o",
+        "command": "gl.openProjectPage"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "workbench.view.search.focus"
+    },
+    {
+        "key": "cmd+r cmd+t",
+        "command": "zsi-vscode.runTestUnderCursor"
+    },
+    {
+        "key": "shift+cmd+left",
+        "command": "-cursorHomeSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+cmd+left",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+cmd+left",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+cmd+right",
+        "command": "-workbench.action.navigateForward"
+    },
+    {
+        "key": "shift+cmd+right",
+        "command": "-cursorEndSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+cmd+right",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+o ctrl+o",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "shift+cmd+0",
+        "command": "sfdx.force.set.default.org"
+    },
+    {
+        "key": "shift+cmd+9",
+        "command": "sfdx.force.org.display.default"
+    },
+    {
+        "key": "cmd+5 shift+cmd+9",
+        "command": "sfdx.force.source.status"
+    },
+    {
+        "key": "ctrl+shift+a ctrl+shift+a",
+        "command": "sfdx.force.anon.apex.execute.selection"
+    },
+    {
+        "key": "ctrl+alt+cmd+g ctrl+alt+cmd+y",
+        "command": "gitlens.views.pull"
+    },
+    {
+        "key": "ctrl+alt+cmd+g ctrl+alt+cmd+r",
+        "command": "gitlens.views.openPullRequest"
+    },
+    {
+        "key": "ctrl+alt+cmd+g alt+cmd+p",
+        "command": "gitlens.views.pushWithForce"
+    },
+    {
+        "key": "ctrl+alt+cmd+g ctrl+alt+cmd+s",
+        "command": "gitlens.stashSaveFiles"
+    },
+    {
+        "key": "ctrl+alt+cmd+g ctrl+alt+cmd+a",
+        "command": "gitlens.stashApply"
+    },
+    {
+        "key": "ctrl+alt+cmd+g ctrl+alt+cmd+d",
+        "command": "gitlens.views.deleteStash"
+    },
+    {
+        "key": "ctrl+alt+cmd+g alt+cmd+s",
+        "command": "gitlens.showQuickStashList"
+    },
+    {
+        "key": "ctrl+alt+cmd+g ctrl+alt+cmd+b",
+        "command": "gitlens.gitCommands.branch"
+    },
+    {
+        "key": "ctrl+alt+cmd+g b",
+        "command": "gitlens.gitCommands.switch"
+    },
+    {
+        "key": "ctrl+alt+cmd+g ctrl+alt+cmd+p",
+        "command": "gitlens.pushRepositories"
+    },
+    {
+        "key": "ctrl+cmd+space",
+        "command": "sfdx.toggle.checkpoint"
+    },
+    {
+        "key": "cmd+f8",
+        "command": "workbench.action.debug.stop",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "cmd+f2",
+        "command": "-workbench.action.debug.stop",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "cmd+s",
+        "command": "-workbench.action.files.save"
+    },
+    {
+        "key": "cmd+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "shift+cmd+s",
+        "command": "-workbench.action.files.saveAll"
+    },
+    {
+        "key": "f11",
+        "command": "-workbench.action.debug.stepInto",
+        "when": "debugState != 'inactive'"
+    },
+    {
+        "key": "f3",
+        "command": "editor.action.revealDefinition"
+    },
+    {
+        "key": "ctrl+shift+u ctrl+shift+u",
+        "command": "search.action.openNewEditor"
+    },
+    {
+        "key": "ctrl+alt+cmd+g ctrl+alt+cmd+c",
+        "command": "git.checkout"
+    },
+    {
+        "key": "ctrl+alt+cmd+g ctrl+alt+cmd+v",
+        "command": "git.pull"
+    },
+    {
+        "key": "ctrl+shift+v ctrl+shift+v",
+        "command": "workbench.debug.action.focusVariablesView"
+    },
+    {
+        "key": "ctrl+shift+h ctrl+shift+u",
+        "command": "gitlens.showSearchAndCompareView"
+    },
+    {
+        "key": "alt+f5",
+        "command": "merge-conflict.next"
+    },
+    {
+        "key": "ctrl+shift+numpad3 ctrl+shift+numpad3",
+        "command": "workbench.debug.action.focusBreakpointsView"
+    },
+    {
+        "key": "ctrl+shift+numpad8 ctrl+shift+numpad8",
+        "command": "workbench.action.debug.callStackUp"
+    },
+    {
+        "key": "ctrl+shift+numpad2 ctrl+shift+numpad2",
+        "command": "workbench.action.debug.callStackDown"
+    },
+    {
+        "key": "shift+cmd+numpad8 shift+cmd+numpad8",
+        "command": "workbench.action.debug.callStackTop"
+    },
+    {
+        "key": "shift+cmd+numpad2 shift+cmd+numpad2",
+        "command": "workbench.action.debug.callStackBottom"
+    },
+    {
+        "key": "ctrl+shift+l ctrl+shift+l",
+        "command": "io.orta.jest.run-all-tests"
+    },
+    {
+        "key": "ctrl+shift+. ctrl+shift+.",
+        "command": "editor.action.quickFix",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+1",
+        "command": "-editor.action.quickFix",
+        "when": "editorTextFocus"
+    }
+]
